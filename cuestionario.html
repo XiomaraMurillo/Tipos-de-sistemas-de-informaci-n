@@ -1,0 +1,58 @@
+<html>
+<head>
+<title>Cuestionario</title>
+<style>
+   body {
+       background-color:#F5CAF8
+</style>
+</head>
+<body>
+
+<ul class="navbar">
+<li><a href="index.html">Que son los Sistemas de información</li>
+<li><a href="tipos.html">Tipos de Sistemas de Informacion</a></li>
+<li><a href="cuestionario.html">Cuestionario de los tipos de SI</a></li>
+</ul>
+<center>
+<div class="frmTitle">
+<H1 class="frm">Cuestionario de SI</H1>
+</div>
+<HR>
+</center>
+<form>
+
+<fieldset>
+<legend> Información personal </legend>
+<p><label>Nombres: <input class="info"></label>&nbsp;&nbsp;&nbsp;<label>Apellidos: <input class="info"></label></p>
+<p><label>Celular: <input class="info" type="tel"></label>&nbsp;&nbsp;&nbsp;<label>Correo electrónico: <input class="info" type=email></label></p>
+<p><label>Celular:  <input class="info" type="tel"></label></label>&nbsp;&nbsp;&nbsp;<label>Direccion:  <input class="info" type="direccion"></label></p>
+</fieldset>
+
+<fieldset>
+<legend>¿Cual de los siguientes es un tipo de SI segun su area funcional?</legend>
+<p><label> <input type=radio name=size> Nivel estrategico </label></p>
+<p><label> <input type=radio name=size> Empresarial </label></p>
+<p><label> <input type=radio name=size> CEO </label></p>
+<p><label> <input type=radio name=size> Recurso humano </label></p>
+</fieldset>
+
+<fieldset>
+<legend>¿Cual de los siguientes pertenece a los niveles de decision o administrativos</legend>
+<p><label> <input type=radio name=size> Manufactura </label></p>
+<p><label> <input type=radio name=size> Nivel operativo </label></p>
+<p><label> <input type=radio name=size> CEO </label></p>
+<p><label> <input type=radio name=size> Recurso humano </label></p>
+</fieldset>
+
+<p><label>Fecha y hora en que realizo el cuestionario: <input type=date min="1" max="31" step="01/01/2024"></label>&nbsp;Preferred delivery time:<input type=time min="11:00" max="21:00" step="900"></label></p>
+
+<br>
+<center>
+<div class="center"><button class="button button1">Eliminar/Limpiar</button></div>
+<br>
+<div class="center"><button class="button button1" onClick="alert('Su cuestionario fue enviado');">Enviar</button></div>
+</center>
+</form>
+
+</body>
+</html>
